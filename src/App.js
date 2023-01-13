@@ -1,24 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import './user'
+import User from './user';
+// import { useState } from 'react';
 
 function App() {
+// let data="ankita"
+
+// const [show, setshow]=useState(10);
+  // const handleClick=()=>{
+  //   data="mishra"
+  //    alert(data)
+  //   //setshow(show+1)
+  // }
+  // console.log(show);
+  // const handleReset=()=>{
+  //   setshow(0)
+  // }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+  {/* <button onClick={handleClick} className="btn1">click me</button> */}
+    {/* <button onClick={handleReset}>Reset</button> */}
+     {/* <h2>{data}</h2>  */}
+     {/* <button onClick={setshow(show+1)} className="btn1">click me</button>  */}
+     {/* <h2>{show}</h2>   */}
+   <User/>
+   </>
   );
 }
 
